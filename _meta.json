@@ -1,0 +1,55 @@
+{
+  "name": "management-framework-selector",
+  "version": "1.0.0",
+  "author": "Mr.Von + WorkBuddy",
+  "created": "2026-05-10",
+  "updated": "2026-05-10",
+  "description": "管理框架智能选择器 - 根据任务特征自动选择并应用PDCA/SMART/SWOT/5W2H等管理框架",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-05-10",
+      "changes": [
+        "初始版本，包含4个框架：PDCA、SMART、SWOT、5W2H",
+        "设计进化接口，支持后续添加新框架",
+        "预留组合框架能力（如PDCA+SWOT）"
+      ]
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "PDCA",
+      "purpose": "项目执行闭环",
+      "status": "active"
+    },
+    {
+      "name": "SMART",
+      "purpose": "目标设定",
+      "status": "active"
+    },
+    {
+      "name": "SWOT",
+      "purpose": "战略分析",
+      "status": "active"
+    },
+    {
+      "name": "5W2H",
+      "purpose": "问题拆解",
+      "status": "active"
+    }
+  ],
+  "pending_frameworks": [
+    {
+      "name": "六顶思考帽",
+      "purpose": "团队协作",
+      "status": "pending",
+      "note": "等待用户提供的学习资料"
+    },
+    {
+      "name": "OKR",
+      "purpose": "目标对齐",
+      "status": "pending",
+      "note": "等待用户提供的学习资料"
+    }
+  ]
+}
